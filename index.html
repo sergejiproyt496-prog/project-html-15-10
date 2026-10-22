@@ -1,32 +1,41 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Візитка</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <img class="card-photo" src="./assets/icons/foto.svg" alt="Моє фото" />
 
-    <div class="karta">
+        <h2 class="card-title color">Сергій</h2>
+        <p class="card-description">
+          Мені 13 років і я вчусь робити сайти на HTML + CSS<br />Це моя перша
+          візитка!
+        </p>
 
-        <img class="foto" src="foto.svg" alt="Моє фото">
+        <hr />
 
-        <h1>Сергій</h1>
-        <p class="opis">Мені 13 років і я вчусь робити сайти на HTML + CSS<br>Це моя перша візитка!</p>
+        <h3 class="card-subtitle color">Контакти</h3>
 
-        <hr>
-
-        <h2>Контакты</h2>
-
-        <ul class="spysok">
-            <li>Почта: <a href="mailto:sergeivladelic@gmail.com">sergeivladelic@gmail.com</a></li>
-            <li>Телеграм: <a href="https://t.me/feather_off">@feather_off</a></li>
+        <ul class="card-contacts">
+          <li>
+            Пошта:
+            <a class="color" href="mailto:sergeivladelic@gmail.com"
+              >sergeivladelic@gmail.com</a
+            >
+          </li>
+          <li>
+            Телеграм:
+            <a class="color" href="https://t.me/feather_off">@feather_off</a>
+          </li>
         </ul>
 
-        <p class="pidpis">Я завжди на зв`язку</p>
-
-    </div>
-
-</body>
+        <p class="card-subdecription">Я завжди на зв`язку</p>
+      </article>
+    </main>
+  </body>
 </html>

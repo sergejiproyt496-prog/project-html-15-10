@@ -1,81 +1,83 @@
 body {
-    margin: 0;
-    padding: 40px 15px;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(180deg, #dfe9ff 0%, #f7fbff 60%);
-    text-align: center;
-    color: #222222;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #dfe9ff 0%, #f7fbff 60%);
+}
+main {
+  padding-top: 10vh;
+}
+.card {
+  max-width: 420px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #d6deea;
+  border-radius: 18px;
+  padding: 30px 25px;
+  box-shadow: 0 10px 30px rgba(30, 60, 120, 0.15);
+  text-align: center;
+  color: #222222;
+}
+.color {
+  color: #6b84e7;
 }
 
-.karta {
-    max-width: 420px;
-    margin: 0 auto;
-    background: #ffffff;
-    border: 1px solid #d6deea;
-    border-radius: 18px;
-    padding: 30px 25px;
-    box-shadow: 0 10px 30px rgba(30, 60, 120, 0.15);
+.card-photo {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #eaf0ff;
+  margin-bottom: 15px;
 }
 
-
-.foto {
-    width: 130px;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #eaf0ff;
-    margin-bottom: 15px;
+.card-title {
+  margin: 0;
+  font-size: 32px;
 }
 
-h1 {
-    margin: 0;
-    color: #1a56db;
-    font-size: 32px;
-}
-
-.opis {
-    color: #555555;
-    margin-top: 10px;
+.card-subtitile {
+  color: #555555;
+  margin-top: 10px;
 }
 
 hr {
-    border: none;
-    border-top: 2px solid #eaf0ff;
-    margin: 22px 0;
+  border: none;
+  border-top: 2px solid #eaf0ff;
+  margin: 22px 0;
 }
 
-h2 {
-    color: #1a56db;
-    font-size: 20px;
-    margin-bottom: 12px;
+.card-subtitile {
+  font-size: 20px;
+  margin-bottom: 12px;
 }
 
-.spysok {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.card-contacts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.spysok li {
-    margin: 9px 0;
+.card-contacts li {
+  margin: 9px 0;
 }
 
-.spysok a {
-    display: inline-block;
-    color: #1a56db;
-    text-decoration: none;
-    border: 1px solid #dbe6ff;
-    border-radius: 999px;
-    padding: 4px 12px;
+.card-contacts a {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #dbe6ff;
+  border-radius: 999px;
+  padding: 4px 12px;
 }
 
-.spysok a:hover {
-    background: #1a56db;
-    color: #ffffff;
+.card-contacts a:hover {
+  background: #154abe;
+  color: #ffffff;
 }
 
-.pidpis {
-    color: #999999;
-    font-size: 14px;
-    margin-top: 22px;
+.card-subdecription {
+  color: #999999;
+  font-size: 14px;
+  margin-top: 22px;
 }
